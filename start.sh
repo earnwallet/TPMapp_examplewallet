@@ -41,3 +41,11 @@ if [ "$cho" == "3" ]; then
     read hmm
     bash start.sh
 fi
+if [ "$cho" == "4" ]; then
+    echo "=============";
+    echo "Bye bye!";
+    echo "=============";
+    echo "[CLICK ENTER]";
+    read hmm
+    exit
+fi
