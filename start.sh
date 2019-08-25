@@ -12,6 +12,8 @@ if [ "$cho" == "1" ]; then
     echo "=============";
     echo "Your balance: `dogecoin-cli getbalance` DOGE" 
     echo "=============";
+    echo "[CLICK ENTER]";
+    read hmm
     bash start.sh
     exit
 fi
@@ -19,6 +21,8 @@ if [ "$cho" == "2" ]; then
     echo "=============";
     echo "Deposit address: `dogecoin-cli getnewaddress`" 
     echo "=============";
+    echo "[CLICK ENTER]";
+    read hmm
     bash start.sh
     exit
 fi
@@ -33,5 +37,7 @@ if [ "$cho" == "3" ]; then
     echo "TXID: $tx";
     echo "TXID link: https://dogechain.info/tx/$tx"
     echo "=============";
+    echo "[CLICK ENTER]";
+    read hmm
     bash start.sh
 fi
