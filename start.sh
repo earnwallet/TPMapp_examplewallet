@@ -1,4 +1,5 @@
-cd /home/`whoami`/TPM/app/examplewallet
+cd /home/`whoami`/TPM/apps/examplewallet
+clear
 echo "=============";
 echo "Welcome to TheProfitMachine Wallet Manager tool." 
 echo "=============";
