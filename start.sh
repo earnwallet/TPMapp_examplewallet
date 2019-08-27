@@ -7,6 +7,7 @@ echo "What would you like to do?";
 echo " (1) Check balance";
 echo " (2) Deposit";
 echo " (3) Withdraw";
+echo " (x) Exit";
 read cho
 if [ "$cho" == "1" ]; then
     echo "=============";
@@ -41,7 +42,7 @@ if [ "$cho" == "3" ]; then
     read hmm
     bash start.sh
 fi
-if [ "$cho" == "4" ]; then
+if [ "$cho" == "x" ]; then
     echo "=============";
     echo "Bye bye!";
     echo "=============";
